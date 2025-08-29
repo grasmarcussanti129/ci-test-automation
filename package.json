@@ -4,7 +4,8 @@
   "description": "A lightweight tool for automating integration tests using GitHub Actions.",
   "main": "src/index.js",
   "scripts": {
-    "add-test": "node src/addTest.js"
+    "add-test": "node src/addTest.js",
+    "test": "jest && mocha"  // Run all tests using Jest and Mocha
   },
   "dependencies": {
     "jest": "^27.0.0",
